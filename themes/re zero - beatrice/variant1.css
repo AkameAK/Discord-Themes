@@ -1,0 +1,46 @@
+/**
+ * @name Beatrice Theme - Variant 1
+ * @author AkameAK
+ * @description Beatrice Theme - Variant 1
+ * @version 1.0
+ */
+
+@import url(https://raw.githubusercontent.com/AkameAK/Discord-Themes/refs/heads/main/q/background.css);
+
+:root {
+	--transparencycolor: 219, 127, 142;
+	--transparencyalpha: 0.1;
+	--bordercolor: 255, 192, 203;
+	--messagetransparency: 0.4;
+	--guildchanneltransparency: 0.1;
+	--chatinputtransparency: 0.0;
+	--memberlisttransparency: 0.0;
+	--accentcolor: 219, 127, 142;
+	--settingsicons: 1;
+	--font: "gg sans", "Noto Sans";
+	--textshadow: transparent;
+	
+	--background: url(https://raw.githubusercontent.com/AkameAK/Discord-Themes/refs/heads/main/themes/images/akame1.jpeg);
+	--backgroundposition: center;
+	--backgroundsize: cover;
+	--backgroundblur: 0;
+	
+	--popout: var(--background);
+	--popoutposition: var(--backgroundposition);
+	--popoutsize: var(--backgroundsize);
+	--popoutblur: var(--backgroundblur);
+	
+	--backdrop: rgba(219, 127, 142, 0.75);
+	--backdropposition: center;
+	--backdropsize: cover;
+	--backdropblur: 0;
+	
+	--textbrightest: 255, 255, 255;
+	--textbrighter: 255, 230, 235;
+	--textbright: 255, 192, 203;
+	--textdark: 219, 127, 142;
+	--textdarker: 188, 109, 122;
+	--textdarkest: 158, 91, 102;
+	
+	--version1_0_5: none;
+}
